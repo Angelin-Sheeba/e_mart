@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Products from './Products';
+
 
 const Home = () => {
   return (
@@ -105,6 +107,7 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <Products /> 
     </>
   );
 }
